@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Twitter Authentication Example</title>
+</head>
+
+<body>
+{>navigation /}
+<h1>Using Twitter for Authentication</h1>
+</body>
+
+</html>

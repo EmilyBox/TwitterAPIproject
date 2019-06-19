@@ -1,0 +1,8 @@
+<nav>
+    <ul>
+        <li><a href="/auth/twitter">Login with Twitter</a></li>
+        <li><a href="/auth/logout">Logout</a></li>
+        <li><a href="/protected">ME</a></li>
+        <li><a href="/hashtag/CSC365">View #CSC365</a></li>
+    </ul>
+</nav>

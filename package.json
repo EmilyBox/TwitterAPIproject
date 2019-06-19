@@ -1,0 +1,29 @@
+{
+  "name": "twitterAuth",
+  "repository": "",
+  "version": "1.0.0",
+  "description": "Twitter App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emily Box",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dustjs-linkedin": "^2.7.5",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "hoffman": "^0.2.2",
+    "oauth-1.0a": "^2.2.2",
+    "passport": "^0.4.0",
+    "passport-twitter": "^1.0.4"
+  },
+  "devDependencies": {
+    "nightwatch": "^0.9.16",
+    "eslint": "^4.9.0",
+    "jasmine": "^2.8.0",
+    "nodemon": "^1.12.1",
+    "selenium-server-standalone-jar": "^3.6.0"
+  }
+}

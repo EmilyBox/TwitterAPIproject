@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Protected Page - Twitter Authentication Example</title>
+</head>
+
+<body>
+{>navigation /}
+<h1>Here were are!</h1>
+<p>
+    Greetings @{screen_name}! <img src="{profile_image_url}"/>
+    Your most recent tweet was
+</p>
+<p>
+    {#status}
+        Created: {created_at}
+        {>linkedTweet screen_name=screen_name id_str=id_str text=text /}
+    {/status}
+</p>
+</body>
+
+</html>

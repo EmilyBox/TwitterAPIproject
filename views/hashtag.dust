@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> #CSC365 </title>
+</head>
+
+<body>
+{>navigation /}
+<h1>Tweets with #CSC365 </h1>
+<p>
+    {#search_metadata}
+        Found {count} tweets about {query}.
+    {/search_metadata}
+</p>
+<ul>
+    {#statuses}
+        <li>{>linkedTweet screen_name=user.screen_name id_str=id_str text=text /}</li>
+    {/statuses}
+</ul>
+</body>
+
+</html>
